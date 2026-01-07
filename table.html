@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding:10px;
+            text-align: center;
+        }
+
+        
+    </style>
+    <link rel="stylesheet" href="Styles/styles.css">
+</head>
+<body>
+    <h2>ANIME INFO</h2>
+    <table class="ani">
+        <caption>List of Favourite Anime</caption>
+        <thead>
+            <!-- basically do same thing as <th> -->
+        </thead>
+        <tbody>
+            <tr>
+                <th>SL</th>
+                <th>Anime</th>
+                <th>Poster</th>
+                <th>Rating(5)</th>
+            </tr>
+
+            <tr>
+                <td>1</td>
+                <td>Haikyu</td>
+                <td><img src="https://th.bing.com/th/id/OIP.CYAvAdgIs-EmaNSg1RY43AHaLH?w=115&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt=""></td>
+                <td>5</td>
+            </tr>
+
+            <tr>
+                <td>2</td>
+                <td>Chihayafuru</td>
+                <td><img src="https://th.bing.com/th/id/OIP.Vny-E_NDxWucfWMlo3clEAHaKa?w=123&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt=""></td>
+                <td>4.5</td>
+            </tr>
+
+            <tr>
+                <td>3</td>
+                <td>Pokemon</td>
+                <td><img src="https://cdn.myanimelist.net/images/anime/1787/140239.jpg" alt=""></td>
+                <td>4</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="4">Anime Entries: 3</td>
+        </tfoot>
+    </table>
+</body>
+</html>

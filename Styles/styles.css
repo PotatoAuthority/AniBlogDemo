@@ -48,3 +48,8 @@ nav{
 form .basicINFO label{
     display: block;
 }
+
+.ani img{
+    width: 70px;
+    height: 94px
+}
