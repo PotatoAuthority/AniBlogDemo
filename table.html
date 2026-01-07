@@ -16,49 +16,69 @@
             text-align: center;
         }
 
-        
+        #ani_table{
+            border: 3px solid tomato;
+            margin-top: 10px;
+            padding-left: 50px;
+            padding-bottom: 10px;
+        }
     </style>
     <link rel="stylesheet" href="Styles/styles.css">
 </head>
 <body>
-    <h2>ANIME INFO</h2>
-    <table class="ani">
-        <caption>List of Favourite Anime</caption>
-        <thead>
-            <!-- basically do same thing as <th> -->
-        </thead>
-        <tbody>
-            <tr>
-                <th>SL</th>
-                <th>Anime</th>
-                <th>Poster</th>
-                <th>Rating(5)</th>
-            </tr>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="">About Us</a></li>
+            </ul>
+            <span id="title">MyAniBlog</span>
+        </nav>
+    </header>
+    <main>
+        <section id="ani_table">
+            <h2>ANIME INFO</h2>
+            <table class="ani">
+                <caption>List of Favourite Anime</caption>
+                <thead>
+                    <!-- basically do same thing as <th> -->
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>SL</th>
+                        <th>Anime</th>
+                        <th>Poster</th>
+                        <th>Rating(5)</th>
+                    </tr>
 
-            <tr>
-                <td>1</td>
-                <td>Haikyu</td>
-                <td><img src="https://th.bing.com/th/id/OIP.CYAvAdgIs-EmaNSg1RY43AHaLH?w=115&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt=""></td>
-                <td>5</td>
-            </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Haikyu</td>
+                        <td><img src="https://th.bing.com/th/id/OIP.CYAvAdgIs-EmaNSg1RY43AHaLH?w=115&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt=""></td>
+                        <td>5</td>
+                    </tr>
 
-            <tr>
-                <td>2</td>
-                <td>Chihayafuru</td>
-                <td><img src="https://th.bing.com/th/id/OIP.Vny-E_NDxWucfWMlo3clEAHaKa?w=123&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt=""></td>
-                <td>4.5</td>
-            </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Chihayafuru</td>
+                        <td><img src="https://th.bing.com/th/id/OIP.Vny-E_NDxWucfWMlo3clEAHaKa?w=123&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3" alt=""></td>
+                        <td>4.5</td>
+                    </tr>
 
-            <tr>
-                <td>3</td>
-                <td>Pokemon</td>
-                <td><img src="https://cdn.myanimelist.net/images/anime/1787/140239.jpg" alt=""></td>
-                <td>4</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <td colspan="4">Anime Entries: 3</td>
-        </tfoot>
-    </table>
+                    <tr>
+                        <td>3</td>
+                        <td>Pokemon</td>
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1787/140239.jpg" alt=""></td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <td colspan="4">Anime Entries: 3</td>
+                </tfoot>
+            </table>
+        </section>
+    </main>
+    
 </body>
 </html>
