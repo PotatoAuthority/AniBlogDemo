@@ -12,6 +12,7 @@ nav li{
 nav li:hover{
     background-color: gold;
     font-size: large;
+    font-weight: bold;
 }
 
 nav{
@@ -34,4 +35,16 @@ nav{
     font-size: 20px;
     font-weight: bold;
     
+}
+
+#info_form{
+    margin-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    border: 3px solid blue;
+}
+
+form .basicINFO label{
+    display: block;
 }
