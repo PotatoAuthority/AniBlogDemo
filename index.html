@@ -3,104 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MyAniBlog</title>
-    <link rel="stylesheet" href="Styles/styles.css">
+    <title>Home</title>
 
+    <link rel="stylesheet" href="Styles/newStyle.css">
     <style>
-        .home_to_flex{
-            display: flex;
-            margin-bottom: 5px;
+        h1{
+            text-align: center;
+            margin-top: 100px;
+            font-size: 4em;
         }
-
-        .flexButton{
-            border: 3px solid black;
-        }
-
-        .flexButton a{
-            text-decoration: none;
-            font-size: 20px;
-        }
-
-        .flexButton a:hover{
-            background-color: bisque;
-            
+        h2, h3{
+            text-align: center;
         }
     </style>
 </head>
 <body>
     <header>
-        <nav>
+        <nav class="newNAV">
             <ul>
-                <li><a href="home.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="OLD_index.html">Anime</a></li>
+                <li><a href="align.html">Align</a></li>
+                <li><a href="flex.html">Flex</a></li>
                 <li><a href="table.html">Table</a></li>
-                <li><a href="">About Us</a></li>
             </ul>
-            <span id="title">MyAniBlog</span>
         </nav>
     </header>
     <main>
-        <article id="anime1">
-            <header><h3>Kuroko no Basket</h3></header>
-            <p>An anime about Basketball. One of the main characters is Kuroko, one of the member of the generational progedies, also known as the ftfth phantom member.</p>
-            <figure>
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG0Vx8i_K0o3TuLYa7Lyi_LP6iZ81DO2LBTA&s" alt="Image of Anime Poster">
-                <figcaption>Poster of Kuroko no Baskeball</figcaption>
-            </figure>
-
-            <div class="home_to_flex">
-                <div class="flexButton">
-                    <a href="flex.html">FLEX</a>
-                </div>
-                
-            </div>
-        </article>
-
-        <section id="info_form">
-            <header><h2>Survey</h2></header>
-            <form>
-                <fieldset class="basicINFO">
-                    <label for="name">Name: </label>
-                    <input type="text" id="name">
-
-                    <label for="email">e-mail: </label>
-                    <input type="email" name="" id="email">
-                </fieldset>
-
-                <fieldset>
-                    <legend>Favourite Anime Info</legend>
-
-                    <input type="radio" name="fav" id="Kuroko">
-                    <label for="Kuroko">Kuroko no Basket</label>
-                    
-                    <input type="radio" name="fav" id="haikyu">
-                    <label for="haikyu">Hailyu</label>
-                    
-                    <input type="radio" name="fav" id="bbox">
-                    <label for="bbox">Blue Box</label>
-                    
-                </fieldset>
-
-                <fieldset>
-                    <legend>Favourite Genre</legend>
-
-                    <input type="checkbox" name="genre" id="rom">
-                    <label for="rom">Romance</label>
-                    <input type="checkbox" name="genre" id="sp">
-                    <label for="sp">Sports</label>
-                    <input type="checkbox" name="genre" id="act">
-                    <label for="act">Action</label>
-                </fieldset>
-
-                <fieldset>
-                    <legend>Comment</legend>
-                    <textarea name="" id="" cols="30" rows="4"></textarea>
-                </fieldset>
-
-                <input type="submit" value="Submit">
-                <input type="reset" value="Clear">
-            </form>
-        </section>
-        
+        <h1>This is Home</h1>
+        <h2>Welcome HOME</h2>
+        <h3>Use Navigation Bar to Navigate</h3>
     </main>
 </body>
 </html>
