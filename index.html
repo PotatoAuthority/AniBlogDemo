@@ -3,14 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>MyAniBlog</title>
     <link rel="stylesheet" href="Styles/styles.css">
+
+    <style>
+        .home_to_flex{
+            display: flex;
+            margin-bottom: 5px;
+        }
+
+        .flexButton{
+            border: 3px solid black;
+        }
+
+        .flexButton a{
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        .flexButton a:hover{
+            background-color: bisque;
+            
+        }
+    </style>
 </head>
 <body>
     <header>
         <nav>
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="home.html">Home</a></li>
                 <li><a href="table.html">Table</a></li>
                 <li><a href="">About Us</a></li>
             </ul>
@@ -25,6 +46,13 @@
                 <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQG0Vx8i_K0o3TuLYa7Lyi_LP6iZ81DO2LBTA&s" alt="Image of Anime Poster">
                 <figcaption>Poster of Kuroko no Baskeball</figcaption>
             </figure>
+
+            <div class="home_to_flex">
+                <div class="flexButton">
+                    <a href="flex.html">FLEX</a>
+                </div>
+                
+            </div>
         </article>
 
         <section id="info_form">
